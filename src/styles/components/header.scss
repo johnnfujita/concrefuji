@@ -1,0 +1,23 @@
+.nav {
+    color: #333;
+}
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: none;
+}
+.active-link {
+    color: #af1010 !important;
+    height: 100%;
+   
+}
+.active-link:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 990px) {
+    .active-link {
+        border-bottom: none;
+    }
+}
